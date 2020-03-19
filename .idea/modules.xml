@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/udemy-akka-persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/udemy-akka-persistence.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/udemy-akka-persistence-build.iml" filepath="$PROJECT_DIR$/.idea/modules/udemy-akka-persistence-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/akka-persistence-build.iml" filepath="$PROJECT_DIR$/.idea/modules/akka-persistence-build.iml" />
     </modules>
   </component>
 </project>

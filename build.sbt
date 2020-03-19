@@ -1,4 +1,4 @@
-name := "udemy-akka-persistence"
+name := "akka-persistence"
 
 version := "0.1"
 
@@ -15,11 +15,11 @@ lazy val protobufVersion = "3.6.1"
 resolvers += Resolver.jcenterRepo
 
 libraryDependencies ++= Seq(
-  "com.typesafe.akka"          %% "akka-persistence" % akkaVersion,
+  "com.typesafe.akka" %% "akka-persistence" % akkaVersion,
 
   // local levelDB stores
-  "org.iq80.leveldb"            % "leveldb"          % leveldbVersion,
-  "org.fusesource.leveldbjni"   % "leveldbjni-all"   % leveldbjniVersion,
+  "org.iq80.leveldb" % "leveldb" % leveldbVersion,
+  "org.fusesource.leveldbjni" % "leveldbjni-all" % leveldbjniVersion,
 
   // JDBC with PostgreSQL 
   "org.postgresql" % "postgresql" % postgresVersion,
