@@ -71,6 +71,10 @@ object PersistentActorsExercise extends App {
 //  votesMap.keys.foreach { citizen =>
 //    votingStation ! Vote(citizen, votesMap(citizen))
 //  }
+  
+    votesMap.foreach { case (citizen, candidate) =>
+    votingStation ! Vote(citizen, candidate)
+  }
 
   votingStation ! Vote("Daniel", "Daniel")
   votingStation ! "print"
